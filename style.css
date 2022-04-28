@@ -1,0 +1,130 @@
+  html{
+font-size: 10px;
+}
+
+body {
+	background-color: #ffffff;
+	opacity: 0.85;
+	background-size: 10px 10px;
+	background-image: repeating-linear-gradient(45deg, #fff1f1 0, #f1f1f1 1px, #ffffff 0, #ffffff 50%);
+	text-align: center;
+	font-family: Poppins, sans-serif;
+	font-size: 1.5rem;
+}
+		
+h1{
+	font-size: 4rem;
+	font-weight: 900;
+	opacity: 0.95;
+	color: hsl(0, 50%, 30%);
+	text-shadow: 5px 3px 4px rgba(0,0,0,0.25);
+	margin-bottom: 0;
+}
+
+@media (max-width: 500px){
+		h1{
+			font-size: 2.5rem;
+	}}
+
+#sub-title {
+	color: hsl(0, 70%, 30%);
+	font-weight: 500;
+	text-shadow: 5px 3px 4px rgba(0,0,0,0.25);
+	font-size: 1.7rem;
+}
+	@media (max-width: 500px){
+		#sub-title {
+		font-size: 1.2rem;
+	}}
+
+figure {
+	background-color: #f1f1f1;
+	margin: 10px auto 0 auto;
+	padding-top: 10px;
+	display: block;
+	justify-content: center;
+}
+
+img {
+	max-width: 80%;
+	height: auto;
+	margin: 20px auto;
+	border-radius: 5%;
+	box-shadow: 10px 5px 5px 2px rgba(0,0,0,0.25);
+	background-color: transparent;
+	display: block;
+}
+
+figcaption{
+	margin: 5px auto 50px;
+	padding-top: 5px;
+	padding-bottom: 25px;
+	font-size: 1.4rem;
+}
+	@media (max-width: 500px){
+		figcaption{
+			font-size: 1rem;
+		}
+	}
+
+h2{
+	font-size: 2.8rem;
+	font-weight: 700;
+	opacity: 0.95;
+	color: hsl(0, 50%, 30%);
+	text-shadow: 5px 3px 4px rgba(0,0,0,0.25);
+}
+
+	@media (max-width: 500px){
+		h2{
+			font-size: 2rem;
+		}
+	}
+
+ul {
+	text-align: left;
+	max-width: 750px;
+	margin: 35px auto 50px auto;
+	opacity: 0.9;
+	line-height: 26px;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+	@media (max-width: 500px){
+		ul{
+			font-size: 1.2rem;
+		}
+	}
+
+li {
+  padding: .5em ;	
+}
+
+blockquote {
+	text-align: left;
+	max-width: 850px;
+	margin: 0 auto 40px auto;
+	font-style: italic;
+	opacity: 0.85;
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.25);
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+	@media (max-width: 500px){
+		blockquote{
+			font-size: 1.2rem;
+		}
+	}
+
+footer {
+	padding-bottom: 50px;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+@media (max-width: 500px){
+		footer{
+			font-size: 1.2rem;
+		}
+	}
